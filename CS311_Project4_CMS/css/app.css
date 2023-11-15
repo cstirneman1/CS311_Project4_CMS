@@ -36,8 +36,14 @@
   font-size: 15pt;
 }
 
+.home-image{
+  display: flex;
+  align-items: stretch;
+}
 .home-image img {
-  height: 100vh; 
+  height: 100%;
+  width: auto;
+  object-fit: cover; 
 }
 
 .intro-paragraph{
@@ -53,10 +59,11 @@
 
 .works {
   background-color: black;
-  height: 100vh;
   color: white;
   padding: 50px;
   font-size: 15pt;
+  display: flex;
+  align-items: stretch;
 }
 
 .composer-name {
